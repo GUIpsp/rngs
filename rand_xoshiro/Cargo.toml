@@ -16,7 +16,7 @@ edition = "2018"
 serde1 = ["serde"]
 
 [dependencies]
-rand_core = { version = "0.6" }
+rand_core = { git = "https://github.com/rust-random/rand.git", rev="0f3ecedef0ea4445a38493fa3d4173b49b3574f9"} 
 serde = { version = "1", features = ["derive"], optional=true }
 
 [dev-dependencies]
